@@ -22,3 +22,15 @@ Temporal analysis of Amazon Electronics reviews across four time points (2008, 2
 1. Clone the repository
    ```bash
    git clone https://github.com/xiaoxuanzhang1/Amazon-Review-Sentiment-Analysis.git
+   ```
+2. Install dependencies
+   ```bash
+   pip install datasets vaderSentiment pandas matplotlib seaborn
+   ```
+3. Open and run the notebook
+   ```bash
+   jupyter notebook Project.ipynb
+   ```
+
+## Data
+Data sourced from [Amazon Reviews 2023](https://huggingface.co/datasets/McAuley-Lab/Amazon-Reviews-2023). Raw data not included due to size.
